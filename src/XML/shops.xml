@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE shops[
+        <!ELEMENT shops (shop+)>
+        <!ELEMENT shop (name,price,place,num)>
+        <!ATTLIST shop id CDATA #REQUIRED>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT price (#PCDATA)>
+        <!ELEMENT place (#PCDATA)>
+        <!ELEMENT num (#PCDATA)>
+        ]>
+
+<shops>
+    <shop id="1">
+        <name>华为笔记本</name>
+        <price>7000</price>
+        <place>深圳</place>
+        <num>300</num>
+    </shop>
+    <shop id="2">
+        <name>小米笔记本</name>
+        <price>6000</price>
+        <place>北京</place>
+        <num>300</num>
+    </shop>
+</shops>
